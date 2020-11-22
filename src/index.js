@@ -1,1 +1,1 @@
-console.log('Rick and Morty App');
+console.log('It works');
