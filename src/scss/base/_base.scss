@@ -1,0 +1,10 @@
+body {
+  font-size: 16px;
+  line-height: 1.15;
+  font-family: 'Raleway', sans-serif;
+  color: $white;
+  background: $black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

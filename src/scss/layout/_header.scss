@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+  padding: 12px 0;
+
+  &__title {
+    color: $purple;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
