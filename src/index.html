@@ -15,13 +15,16 @@
       <h1 class="header__title">Rick and Morty App</h1>
     </header>
     <main class="main">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio assumenda
-        quibusdam, enim esse repellendus deleniti aut totam sapiente illum a
-        perspiciatis sit eius suscipit adipisci fugiat similique? Sapiente, odit
-        quam.
-      </p>
-      <button class="button">click me</button>
+      <div class="pagination">
+        <button disabled class="pagination__btn" id="prev-btn">
+          &laquo; Previous
+        </button>
+        <h2 class="pagination__current" id="current-page">1</h2>
+        <button disabled class="pagination__btn" id="next-btn">
+          Next &raquo;
+        </button>
+      </div>
+      <div class="characters"></div>
     </main>
     <footer class="footer">
       <p class="footer__text">Copyright &copy; 2020 Maksymilian Stępak</p>

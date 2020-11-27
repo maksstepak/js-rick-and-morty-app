@@ -22,6 +22,9 @@
   "homepage": "https://github.com/maksstepak/js-rick-and-morty-app#readme",
   "devDependencies": {
     "@babel/core": "^7.12.7",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.1",
@@ -55,5 +58,8 @@
     "src/**/*.js": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5"
   }
 }

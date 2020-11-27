@@ -1,3 +1,6 @@
 import './scss/main.scss';
 
-console.log('It works');
+import Characters from './modules/characters';
+
+const characters = new Characters();
+characters.init();
