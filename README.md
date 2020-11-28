@@ -6,7 +6,7 @@ This is a web application that uses [The Rick and Morty API](https://rickandmort
 
 - HTML 5
 - SCSS
-- JavaScript ES6
+- JavaScript ES7
 - Webpack 5, Babel 7
 - ESLint 7, Prettier 2
 
@@ -28,7 +28,7 @@ cd js-rick-and-morty-app
 # Install depedencies
 npm install
 
-# Serve with hot reload at http://localhost:9000/
+# Serve with hot reload at http://localhost:8080/
 npm run start
 
 # Build for production
