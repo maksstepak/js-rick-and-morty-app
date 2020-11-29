@@ -1,6 +1,6 @@
 .characters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px;
 
   &__item {
@@ -9,10 +9,16 @@
     text-align: center;
     border-radius: 4px;
     box-shadow: 4px 4px 4px $black;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__image {
-    width: 260px;
+    width: 200px;
   }
 
   &__header {

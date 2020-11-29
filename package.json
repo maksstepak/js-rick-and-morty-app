@@ -66,9 +66,14 @@
   "dependencies": {
     "@babel/runtime": "^7.12.5"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
 }
