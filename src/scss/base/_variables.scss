@@ -1,16 +1,12 @@
 $black: #000000;
 $white: #ffffff;
-$purple: #7209b7;
-$purple-dark: #560bad;
 
-$breakpoints: (
-  'medium': (
-    min-width: 768px,
-  ),
-  'large': (
-    min-width: 1024px,
-  ),
-  'huge': (
-    min-width: 1200px,
-  ),
-);
+$flickr-pink: #f72585ff;
+$purple: #7209b7ff;
+$trypan-blue: #3a0ca3ff;
+$ultramarine-blue: #4361eeff;
+$vivid-sky-blue: #4cc9f0ff;
+
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+$breakpoint-huge: 1200px;

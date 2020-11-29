@@ -1,0 +1,27 @@
+.characters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+
+  &__item {
+    padding: 6px;
+    background: $flickr-pink;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px $black;
+  }
+
+  &__image {
+    width: 260px;
+  }
+
+  &__header {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__status {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
